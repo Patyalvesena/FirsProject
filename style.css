@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --background: rgba(255, 255, 255, 1);
+
+    --fontf-titles: 'Inter', sans-serif;
+    --fontf-main: 'Open Sans', sans-serif;
+
+    --fsize-title: 4.9rem;
+    --fsize-others: 1.4rem;
+
+    --fcolortitle: rgba(0, 0, 0, 1);
+    --fcolorspan-links: rgba(255, 153, 0, 1);
+    --fcolormain:  rgba(125, 121, 135, 1);
+
+}
+
+body {    
+    margin: auto;
+    width: 128.0rem;
+    height: 72.0rem;
+}
+   
+
+.page {
+    width: 59.2rem;
+    height: 57.9rem;
+    margin: auto;
+    text-align: center;
+}
+
+header img {
+    margin: 0 auto 7.2rem;
+    width: 34.8rem;
+    height: 22.3rem;
+}
+
+header h1 {
+    margin-bottom: 3.2rem;
+    font-family: var(--fontf-titles);
+    font-size: var(--fsize-title);
+    line-height: 5.6rem;
+    font-weight: normal;
+    color: var(--fcolortitle);
+}
+
+header h1 span {
+    font-weight: bold;
+}
+ 
+main {
+    font-family: var(--fontf-main);
+    font-size: var(--fsize-others);
+    line-height: 2.8rem;
+    color: var(--fcolormain);
+    margin-bottom: 7.2rem;
+}
+
+span, a {
+    color: var(--fcolorspan-links);
+}
+
+footer {
+    font-family: var(--fontf-main);
+    font-size: var(--fsize-others);
+    margin-bottom: 3.3rem;
+}
+
+footer hr {
+    margin: auto;
+    margin-bottom: .8rem;
+    width: 56.8rem;
+    height: 0;
+    border: 1px solid #ECEFF2;
+}
+
+footer a + a {
+    margin-left: 2.9rem;
+}
+
+#balls {    
+  position: fixed;
+  right: 0;
+  bottom: 0;  
+}
